@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Lato", "Roboto Mono", sans-serif !important; }
+
+h1, h2, h3, h4, p, span, ul, li {
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+
+.wrap {
+  padding: 32px; }
+
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
+.nav {
+  background-color: #F8F9FA;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  height: 100vh; }
+  .nav .top .logo {
+    padding-left: 32px;
+    margin-bottom: 30px; }
+  .nav .top .menu {
+    padding-left: 0px; }
+  .nav .top .menuItem {
+    list-style: none; }
+    .nav .top .menuItem a {
+      color: #212529;
+      padding: 4px 34px;
+      margin: 10px 0; }
+      .nav .top .menuItem a:hover {
+        color: #198754;
+        border-left: 4px solid #198754;
+        padding-left: 30px; }
+    .nav .top .menuItem .menuName {
+      padding-left: 16px; }
+  .nav .bottom {
+    padding-left: 32px; }
+    .nav .bottom .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 16px; }
+    .nav .bottom .accountInfo .account {
+      font-weight: 600; }
+    .nav .bottom .accountInfo .email {
+      color: #6C757D;
+      font-size: 14px; }
+
+.modal-header, .modal-body {
+  padding: 32px; }
+  .modal-header .personalPhoto, .modal-body .personalPhoto {
+    width: 100%;
+    height: 100%;
+    max-height: 141px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .modal-header .tagGroup .tag, .modal-body .tagGroup .tag {
+    font-size: 14px;
+    background-color: #F8F9FA; }
+
+.formBlock {
+  padding-bottom: 8px; }
+  .formBlock .vDate {
+    font-size: 14px; }
+  .formBlock .btn-outline-light {
+    border: 1px solid #CED4DA;
+    color: #CED4DA; }
+
+/*# sourceMappingURL=all.css.map */
