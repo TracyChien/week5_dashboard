@@ -1,0 +1,12 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import "variable";// 變數
+// @import "reset";  // reset.css
+@import "base"; // 全站設定
+@import "util"; // 工具類 class，.mb-1、.pr-3
+
+@import 'layout/menu';
+
+@import 'pages/admin';

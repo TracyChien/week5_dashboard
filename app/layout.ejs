@@ -6,19 +6,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header">
-  </header>
+  <div class="row mx-0">
+    <div class="col-md-3 px-0">
+      <nav class="nav d-flex flex-column justify-content-between">
+        <div class="top">
+          <div class="logo"><a href="index.html"><img src="./assets/images/logo-ANSWER.svg" alt="logo"></a></div>
+          <ul class="menu">
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="#">
+                <span class="material-icons">analytics</span>
+                <span class="menuName">Dashboard</span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="#">
+                <span class="material-icons">question_answer</span>
+                <span class="menuName">Question</span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="#">
+                <span class="material-icons">assignment</span>
+                <span class="menuName">
+                  Assignment
+                </span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="#">
+                <span class="material-icons">assignment</span>
+                <span class="menuName">
+                  Course
+                </span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="admin.html">
+                <span class="material-icons">people</span>
+                <span class="menuName">
+                  Admin
+                </span>
+              </a>
+            </li>
+            <li class="menuItem">
+              <a class="d-flex align-items-center" href="#">
+                <span class="material-icons">settings</span>
+                <span class="menuName">
+                  Settings
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom d-flex align-items-center">
+          <img class="avatar" src="./assets/images/andychen.jpeg" alt="avatar">
+          <div class="accountInfo">
+            <p class="account">Andy Chen</p>
+            <p class="email">andy0401@mail.com</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="col-md-9">
+      <div class="wrap">
+        <%- contents %>
+      </div>
+    </div>
+  </div>
+  <!-- <header class="header">
+    <span class="material-icons  md-18">&#xE87C;</span>
+  </header> -->
 
-  <%- contents %>
+ 
 
-  <footer class="footer">
-  </footer>
+  <!-- <footer class="footer">
+  </footer> -->
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 
 </html>

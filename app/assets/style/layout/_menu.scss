@@ -1,0 +1,51 @@
+.nav{
+  // width: 25%;
+  // max-width: 296px;
+  background-color: #F8F9FA;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  height: 100vh;
+  .top{
+    .logo{
+      padding-left: 32px;
+      margin-bottom: 30px;
+    }
+    .menu{
+      padding-left: 0px;
+    }
+    .menuItem{
+      list-style: none;
+      a{
+        color: #212529;
+        padding: 4px 34px;
+        margin: 10px 0;
+        &:hover{
+          color: $primary;
+          border-left: 4px solid $primary;
+          padding-left: 30px;
+        }
+      }
+     .menuName{
+       padding-left: 16px;
+     }
+    }
+  }
+  .bottom{
+    padding-left: 32px;
+    .avatar{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+    .accountInfo{
+      .account{
+        font-weight: 600;
+      }
+      .email{
+        color: #6C757D;
+        font-size: 14px;
+      }
+    }
+  }
+}
